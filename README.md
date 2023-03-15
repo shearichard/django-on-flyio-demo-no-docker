@@ -14,7 +14,7 @@ I subsequently found this [Fly.io blog post](https://fly.io/blog/deploying-djang
 
 ### Necessary to migrate on fly.io
 
-Although this document https://learndjango.com/tutorials/deploy-django-postgresql-flyio explains the need to create a Django `superuser` for the deployed app it's import to remember the need to `migrate` like this ... 
+Although this document https://learndjango.com/tutorials/deploy-django-postgresql-flyio explains the need to create a Django `superuser` for the deployed app it's important to remember the need to `migrate` like this 
 ```
 $ fly ssh console -C 'python /code/manage.py migrate'
 ```
