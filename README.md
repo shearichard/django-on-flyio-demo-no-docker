@@ -9,7 +9,14 @@ The process I followed in order to deploy the app is documented here https://fly
 ### With a database backend
 The best documentation I found for extending the app to interact with a database is parts of this document https://learndjango.com/tutorials/deploy-django-postgresql-flyio .
 
+## Deployment Notes
 
+### Necessary to migrate on fly.io
+
+Although this document https://learndjango.com/tutorials/deploy-django-postgresql-flyio explains the need to create a Django `superuser` for the deployed app I haven't seen any documentation of the need to `migrate` like this ... 
+```
+$ fly ssh console -C 'python /code/manage.py migrate'
+```
 
 ### Fly.io Command line interactions 
 
