@@ -3,11 +3,12 @@
 A project used to demonstrate deploying a Django app to Fly.io.
 
 ## Procedure
-### Basic Serving
-The process I followed in order to deploy the app is documented here https://fly.io/docs/django/getting-started/ . 
+### Useful Resources
+The process I followed in order to deploy the app is documented [here](https://fly.io/docs/django/getting-started/) . 
 
-### With a database backend
-The best documentation I found for extending the app to interact with a database is parts of this document https://learndjango.com/tutorials/deploy-django-postgresql-flyio .
+The best documentation I found for extending the app to interact with a database is parts of this [document from learndjango](https://learndjango.com/tutorials/deploy-django-postgresql-flyio) .
+
+I subsequently found this [Fly.io blog post](https://fly.io/blog/deploying-django-to-production/) from February 2023 which covers similar ground to the learndjango piece mentioned above. I haven't had time to read it properly but it looks good.
 
 ## Deployment Notes
 
