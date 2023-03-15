@@ -1,5 +1,8 @@
 #fly/views.py
-from django.http import HttpResponse
+from django.views.generic import ListView
+from .models import Todo
 
-def homePageView(request):
-    return HttpResponse("Hello, Fly ! (v1.1)")
+class HomePageView(ListView):
+    model = Todo
+    template_name = "fly/home.html"
+

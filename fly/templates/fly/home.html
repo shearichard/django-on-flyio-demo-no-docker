@@ -1,0 +1,8 @@
+<!-- templates/home.html -->
+<h1>Fly.io Demo</h1>
+<h2>The Inevitable Todos !</h2>
+<ul>
+    {% for text in todo_list %}
+        <li>{{ text.todo }}</li>
+    {% endfor %}
+</ul>
