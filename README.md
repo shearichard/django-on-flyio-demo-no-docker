@@ -4,7 +4,7 @@ A project used to demonstrate deploying a Django app to Fly.io.
 
 ## Procedure
 ### Useful Resources
-The process I followed in order to deploy the app is documented [here](https://fly.io/docs/django/getting-started/) . 
+The process I followed in order to deploy the app is documented [here](https://fly.io/docs/django/getting-started/) but keep reading because I subsequently found fuller descriptions. 
 
 The best documentation I found for extending the app to interact with a database is parts of this [document from learndjango](https://learndjango.com/tutorials/deploy-django-postgresql-flyio) .
 
