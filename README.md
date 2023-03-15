@@ -11,13 +11,18 @@ The best documentation I found for extending the app to interact with a database
 
 
 
-### Memory Aid
+### Fly.io Command line interactions 
 
 Fly interactions starting from scratch ...
 ```
 $ fly launch #produce the necessary configuration files locally
 $ fly deploy #move the application up to the servers of choice, start the app running
 $ fly open #launch a browser window locally with the app visible in it, doesn't always work ?
+```
+
+Once the app is running then changes made to the project can be deployed with the single command ...
+```
+$ fly deploy 
 ```
 
 
